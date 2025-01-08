@@ -1,0 +1,33 @@
+.editTaskPopup {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: none;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.editTaskPopup--active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.editTaskPopup__content {
+    row-gap: 20px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    min-width: 300px;
+}
+
+.editTaskPopup__form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.editTaskPopup__input {
+    height: 30px;
+}

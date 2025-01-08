@@ -1,0 +1,41 @@
+.task {
+    display: flex;
+    column-gap: 20px;
+    padding: 10px;
+    background: rgba(209, 209, 209);
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.task--completed {
+    background: rgb(183, 255, 152);
+}
+
+.task--hide {
+    display: none;
+}
+
+.task__info {
+    width: 100%;
+}
+
+.task__control {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80px;
+}
+
+.task__icons {
+    display: flex;
+    justify-content: right;
+}
+
+.icon {
+    padding: 4px;
+    cursor: pointer;
+}
+
+.icon:hover {
+    background: white;
+}

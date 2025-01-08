@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+}
+
+.app {
+  margin: 0 auto;
+  width: calc(100vw - 10%);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.addTaskBtn {
+  height: 28px;
+  cursor: pointer;
+}
